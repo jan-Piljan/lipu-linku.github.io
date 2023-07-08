@@ -5,6 +5,12 @@
   src: url(https://raw.githubusercontent.com/lipu-linku/nasin-sitelen/main/sitelenselikiwenasuki.ttf);
 }
 
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://rsms.me/inter/font-files/Inter-Medium.woff2?v=3.19);
+}
 html {
   color-scheme: dark;
 }
@@ -22,7 +28,7 @@ body {
 }
 
 body {
-  font-family: "Noto Serif", Verdana, "Lucida Sans Unicode", sans-serif;
+  font-family: "Inter","-apple-system","Noto Serif", Verdana, "Lucida Sans Unicode", sans-serif;
   text-align: center;
   background-color: var(--bg-color);
   color: var(--txt-color);
@@ -31,8 +37,10 @@ body {
   --bg-color: #000000;
   --txt-color: hsl(222, 100%, 99%);
   --highlight-color: hsl(34, 100%, 63%);
+  --highlight-shade: hsl(34, 91%, 78%);
   --link-color: hsl(172, 100%, 26%);
   --shade-color: hsl(222, 12%, 60%);
+  --darker-shade-color: hsl(222, 12%, 60%);
   --border-color: hsl(222, 12%, 20%);
   --bg-alt-color: hsl(222, 0%, 7%);
 }
@@ -40,8 +48,10 @@ body {
   --bg-color: #ffffff;
   --txt-color: hsl(222, 12%, 8%);
   --highlight-color: hsl(34, 92%, 50%);
+  --highlight-shade: hsl(34, 100%, 74%);
   --link-color: hsl(172, 100%, 26%);
   --shade-color: hsl(222, 28%, 45%);
+  --darker-shade-color: hsl(222, 27%, 33%);
   --border-color: hsl(222, 28%, 75%);
   --bg-alt-color: hsl(222, 0%, 93%);
 }
@@ -90,6 +100,7 @@ nav img {
 }
 
 .searchbar {
+  justify:;
   text-align: center;
   font-size: 150%;
   font-family: inherit;
@@ -99,8 +110,7 @@ nav img {
   background-color: var(--bg-alt-color);
   color: var(--highlight-color);
   border: 1px solid var(--border-color);
-  border-radius: 0.25rem;
-  padding: 0.25rem 0;
+  border-radius: 0.37rem;
 }
 
 #language_selector {
@@ -220,6 +230,7 @@ h2 {
     minmax(0, 1fr) minmax(0, 2fr) minmax(0, 2fr) minmax(0, 2fr)
     minmax(0, 1fr);
   grid-column-gap: 10px;
+  background-color:;
   grid-template-areas:
     "sourcelanguage sourcelanguage creator creator creator"
     "etymology etymology etymology coined coined"

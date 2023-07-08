@@ -26,23 +26,24 @@
   height: 20px;
   width: 20px;
   background-color: #eee;
-  border-radius: 0.25rem;
+  border-radius: 1rem;
   transition: background-color 0.2s;
 }
 
 /* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark {
-  background-color: var(--shade-color);
+  background: linear-gradient(var(--shade-color) 0%, var(--darker-shade-color) 100%);
+  transition: opacity 0.2s;
 }
 
 /* When the checkbox is checked, add a gold background */
 .container input:checked ~ .checkmark {
-  background-color: var(--highlight-color);
+  background: linear-gradient(var(--highlight-color) 0%, var(--highlight-shade) 100%);
+  transition: opacity 0.5s;
 }
 
 /* Checkmark indicator */
 .container .checkmark:after {
-  content: "";
   position: absolute;
   opacity: 0;
   top: 0;

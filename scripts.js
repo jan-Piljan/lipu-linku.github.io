@@ -1,5 +1,5 @@
 "use strict";
-// === BEGIN: MIT license from https://github.com/gustf/js-levenshtein/blob/master/LICENSE
+// === BEGIN: MIT license from https://github.com/gustf/js-levenshtein/blob/master/LICENSE, "js-levenshtein" by Gustaf Andersson (requirements of MIT license)
 const levenshtein = (function () {
   function _min(d0, d1, d2, bx, ay) {
     return d0 < d1 || d2 < d1
@@ -619,4 +619,4 @@ const checkbox_defaults = {
   checkbox_lightmode: "false"
 };
 const urlParams = new URLSearchParams(window.location.search);
-var show_word = null;
+const show_word = null;

@@ -1,28 +1,24 @@
 ﻿<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
 
-    <link rel="stylesheet" type="text/css" href="css.css" />
-    <link rel="stylesheet" type="text/css" href="checkbox.css" />
-    <link rel="shortcut icon" href="icon.png" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Noto%20Serif:regular,italic,bold,bolditalic"
-    />
-    <script type="text/javascript" src="scripts.js" defer></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="stylesheet" type="text/css" href="css.css"/>
+    <link rel="stylesheet" type="text/css" href="checkbox.css"/>
+    <link rel="shortcut icon" href="icon.png"/>
+    <link 
+        rel="stylesheet" 
+        href="https://fonts.googleapis.com/css?family=Noto%20Serif:regular,italic,bold,bolditalic"/>
+    
+        <script type="text/javascript" src="scripts.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>lipu Linku - toki pona dictionary</title>
-    <meta name="description" content="toki pona dictionary" />
-
-    <meta property="og:title" content="lipu Linku" />
+    <meta name="description" content="toki pona dictionary"/>
+    <meta property="og:title" content="lipu Linku"/>
     <meta
       property="og:description"
-      content="interactive toki pona dictionary"
-    />
-    <meta property="og:url" content="https://linku.la/" />
-
+      content="lipu Linku, the interactive Toki Pona dictionary"/>
+    <meta property="og:url" content="https://linku.la/"/>
     <script>
       if (localStorage.checkbox_lightmode === "true") {
         document.documentElement.classList.add("lightmode");
@@ -32,10 +28,9 @@
   <body onload="main()">
     <nav>
       <div class="logo">
-        <img src="icon.png" alt="lipu Linku" />
+        <img src="icon.png" alt="logo of lipu Linku in .png format" />
         lipu Linku
       </div>
-
       <div class="search_container">
         <input
           id="searchbar"
@@ -71,9 +66,7 @@
       <div id="checkbox_container">
         <div id="usage_selector"></div>
         <div id="settings_selector"></div>
-        <!-- MOVE NEXT TO SEARCH BAR -->
-      </div>
-
+    </div>
       <div id="dictionary"></div>
     </div>
   </body>
