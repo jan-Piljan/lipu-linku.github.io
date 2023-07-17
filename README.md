@@ -6,6 +6,8 @@
   </a>
 </div>
 
+### This fork of lipu Linku is sourced from "https://github.com/lipu-linku/lipu-linku.github.io". GPL3.0 license requirements include acknowledging the source of the code. Source code is free of charge on this repo and the original one.
+
 ## Overview
 
 lipu Linku is a Toki Pona dictionary, providing convenient and searchable access to
