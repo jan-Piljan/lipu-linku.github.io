@@ -1,10 +1,14 @@
-@font-face {
-  font-family: "sitelen seli kiwen";
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://raw.githubusercontent.com/lipu-linku/nasin-sitelen/main/sitelenselikiwenasuki.ttf);
+* {
+
 }
 
+@font-face {
+  font-family: "FairfaxPonaHD";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://github.com/kreativekorp/open-relay/raw/master/FairfaxHD/FairfaxPonaHD.ttf);
+}
+/*https://raw.githubusercontent.com/lipu-linku/nasin-sitelen/main/sitelenselikiwenasuki.ttf*/
 @font-face {
   font-family: "Inter";
   font-style: normal;
@@ -17,6 +21,15 @@ html {
 
 html.lightmode {
   color-scheme: light;
+}
+
+@keyframes test {
+  0% {
+    filter: invert(0%);
+  }
+  100% {
+    filter: invert(100%);
+  }
 }
 
 html,
@@ -43,6 +56,7 @@ body {
   --darker-shade-color: hsl(222, 12%, 60%);
   --border-color: hsl(222, 12%, 20%);
   --bg-alt-color: hsl(222, 0%, 7%);
+  transition: background-color 0.5s, color 0.5s;
 }
 .lightmode {
   --bg-color: #ffffff;
@@ -54,6 +68,7 @@ body {
   --darker-shade-color: hsl(222, 27%, 33%);
   --border-color: hsl(222, 28%, 75%);
   --bg-alt-color: hsl(222, 0%, 93%);
+  transition: background-color 0.5s, color 0.5s;
 }
 *:focus-visible {
   outline: 2px solid var(--highlight-color);
@@ -91,6 +106,7 @@ nav img {
 }
 .lightmode nav img {
   filter: invert(100%);
+  transition: filter 3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .search_container {
@@ -100,7 +116,6 @@ nav img {
 }
 
 .searchbar {
-  justify:;
   text-align: center;
   font-size: 150%;
   font-family: inherit;
@@ -230,7 +245,7 @@ h2 {
     minmax(0, 1fr) minmax(0, 2fr) minmax(0, 2fr) minmax(0, 2fr)
     minmax(0, 1fr);
   grid-column-gap: 10px;
-  background-color:;
+  background-color: #ffffff00;
   grid-template-areas:
     "sourcelanguage sourcelanguage creator creator creator"
     "etymology etymology etymology coined coined"
@@ -342,8 +357,8 @@ summary {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "sitelen seli kiwen";
-  font-size: 320%;
+  font-family: "FairfaxPonaHD";
+  font-size: 300%;
 }
 .sitelensitelen {
   grid-area: sitelensitelen;

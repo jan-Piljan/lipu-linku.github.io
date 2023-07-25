@@ -11,7 +11,7 @@
 ## Overview
 
 lipu Linku is a Toki Pona dictionary, providing convenient and searchable access to
-the dictionary data in [jasima](https://github.com/lipu-linku/jasima) and
+the dictionary data in [jasima](https://linku.la/jasima/data.json) and
 [its sheet](https://docs.google.com/spreadsheets/d/1xwgTAxwgn4ZAc4DBnHte0cqta1aaxe112Wh1rv9w5Yk).
 
 ## Development
@@ -42,4 +42,4 @@ You can also join the discord to contribute translations and talk to the maintai
 
 ## License
 
-lipu Linku (`lipu-linku.github.io`) is licensed under the GNU General Public License Version 3.
+The website and source code for "lipu Linku" (`linku.la`) is licensed under the GNU General Public License Version 3.

@@ -604,10 +604,10 @@ const checkbox_labels = {
 
 // must be strings bc localstorage only saves strings
 const checkbox_defaults = {
-  // checkbox_pu: "true",
-  // checkbox_kusuli: "true",
-  // checkbox_kulili: "false",
-  // checkbox_none: "false",
+checkbox_pu: "true",
+checkbox_kusuli: "true",
+checkbox_kulili: "false",
+checkbox_none: "false",
   checkbox_core: "true",
   checkbox_widespread: "true",
   checkbox_common: "false",
